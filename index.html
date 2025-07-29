@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varshini V - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background: linear-gradient(120deg, #e0c3fc, #8ec5fc);
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #000046, #1cb5e0);
+            color: white;
+            text-align: center;
+            padding: 30px 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 10px;
+            padding: 10px 15px;
+            background-color: #1e90ff;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #005bbb;
+        }
+
+        section {
+            background-color: white;
+            margin: 30px auto;
+            padding: 40px;
+            border-radius: 20px;
+            max-width: 1000px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        .skill-bar {
+            margin: 10px 0;
+        }
+
+        .bar {
+            background-color: #ddd;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .bar span {
+            display: block;
+            height: 20px;
+            background-color: #6a5acd;
+            color: white;
+            text-align: right;
+            padding-right: 10px;
+            line-height: 20px;
+        }
+
+        .project-card {
+            background-color: #f3f3f3;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .project-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>VARSHINI V</h1>
+        <p>Frontend Developer | UI/UX Designer | Tech Explorer</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="varshini.jpg" alt="varshini" style="width: 150px; border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.3); display: block; margin: auto;">
+        <p style="text-align: center; margin-top: 20px;">Motivated second-year B.Tech IT student with a strong passion for frontend development and UI/UX design. I love crafting visually engaging and user-friendly interfaces that make the web more accessible and beautiful. I'm a fast learner and a problem-solver with a creative mindset.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Technical & Personal Skills</h2>
+
+        <div class="skill-bar">
+            <p>HTML & CSS</p>
+            <div class="bar"><span style="width: 90%;">90%</span></div>
+        </div>
+        <div class="skill-bar">
+            <p>MySQL</p>
+            <div class="bar"><span style="width: 80%;">80%</span></div>
+        </div>
+        <div class="skill-bar">
+            <p>Design Thinking</p>
+            <div class="bar"><span style="width: 85%;">85%</span></div>
+        </div>
+        <div class="skill-bar">
+            <p>Public Speaking</p>
+            <div class="bar"><span style="width: 88%;">88%</span></div>
+        </div>
+        <div class="skill-bar">
+            <p>German Language (Beginner - A1.1)</p>
+            <div class="bar"><span style="width: 40%;">40%</span></div>
+        </div>
+        <div class="skill-bar">
+            <p>c programming</p>
+            <div class="bar"><span style="width: 75%;">75%</span></div>
+        </div>
+        <div class="skill-bar">
+            <p>java programming</p>
+            <div class="bar"><span style="width: 80%;">80%</span></div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <a href="feedfit.html" target="_blank"><img src="smart gadget.jpg" alt="Project 1" style="width: 100%; border-radius: 10px;"></a>
+                <p>Smart Comfort for Smart Moms</p>
+            </div>
+            <div class="project-card">
+                <a href="MOTO.html" target="_blank"><img src="helmet massage.jpg" alt="Project 2" style="width: 100%; border-radius: 10px;"></a>
+                <p>Motorcycle Helmet Massager</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>PowerBI Workshop - OfficeMaster</li>
+            <li>Microsoft Azure AI course - Simplilearn</li>
+            <li>MongoDB Workshop - MongoDB</li>
+            <li>Data Science using Python - Manipal University, Jaipur</li>
+            <li>Python for Data Science - NPTEL</li>
+            <li>German A1.1 Certificate - inlingua</li>
+            <li>Data Science & ML (R Programming) - KRCE</li>
+        </ul>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>B.Tech in Information Technology</strong>, KRCE (2023–2027) – CGPA: 7.67</li>
+            <li><strong>HSC</strong>, Lakshmi Matric HR Sec School – 83.5%</li>
+            <li><strong>SSLC</strong>, Lakshmi Matric HR Sec School – 83%</li>
+        </ul>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <p>I have worked in the field of <strong>patent drafting</strong>, where I contributed to preparing detailed patent documents and provided innovative ideas. This role sharpened my technical writing and analytical skills.</p>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" style="text-align: center;">
+        <h2>Resume</h2>
+        <a href="varshini resume.pdf" download style="padding: 10px 20px; background-color: #2c3e50; color: white; text-decoration: none; border-radius: 10px;">Download My Resume (PDF)</a>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" style="text-align: center;">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:varshiniviswanathh@gmail.com">varshiniviswanathh@gmail.com</a></p>
+        <p>Phone: +91 8778187489</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/varshini-viswanath-176a7b291/" target="_blank">View Profile</a></p>
+        <p>GitHub: <a href="https://github.com/V-varshin/portfolio" target="_blank">GitHub Portfolio</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 Varshini V | All Rights Reserved
+    </footer>
+
+</body>
+</html>
